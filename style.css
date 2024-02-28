@@ -1,0 +1,135 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+header {
+    margin: 47px 0 45px 47px;
+
+}
+
+.link {
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 32px;
+    color: #17233D;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.875px;
+    line-height: 21px;
+}
+
+.link-3 {
+    background: #6FBF44;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    width: 124px;
+    height: 51px;
+}
+
+h1 {
+    font-size: 62px;
+    color: #161A49;
+    font-weight: 700;
+    line-height: 82px;
+    width: 582px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 33px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+
+}
+
+.link-2 {
+    color: #6FBF44;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        margin: 425px 0 0 50px;
+        display: block;
+        position: absolute;
+    }
+
+    a {
+        display: none;
+    }
+
+    .link-3 {
+        height: 31px;
+        width: 91px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 485px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .link-2 {
+        color: #6FBF44;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        background: transparent;
+        border: none;
+        margin-left: 88px;
+        width: 112px;
+        height: 85px;
+    }
+
+    div {
+        display: inline-block;
+        margin-left: 195px;
+        width: 493px;
+    }
+}
